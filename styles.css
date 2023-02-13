@@ -10,10 +10,11 @@
     font-family: Helvetica;
     background-image: linear-gradient(to top, rgba(81, 113, 150, 0.675), rgba(126, 129, 131, 0.442)), url(https://img.rawpixel.com/private/static/images/website/2022-05/upwk62164069-wikimedia-image-kowgl2wq.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=a7d9e05b164b8c88e9d9a88b5542415a);
     background-size:contain;
-    
 
     
   }
+
+
   
   .img1 {
     width: auto;
@@ -45,21 +46,23 @@
     margin-left: 50px;
     margin-bottom: 100px;
     margin-top: -100px;
+    padding-top: -9000px;
     border: solid black 3px;
     
   }
   .img4 {
     width: auto;
     height: 300px;
-    float: left;
-    margin-right: 100px;
+    float: right;
+    margin-right: 130px;
     margin-left: 20px;
-    margin-bottom: 100px;
-    margin-top: -80px;
+    margin-bottom: 00px;
+    margin-top: -200px;
     border: solid black 3px;
 
-    
   }
+
+  
   .ocean {
     margin-bottom: 100px;
   }
@@ -97,7 +100,8 @@
 
   .sec3 {
     margin-top: -200px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
+    padding-bottom: 200px;
   }
     
 
@@ -114,10 +118,10 @@
     
   }
   
-  
+ 
   
   h1 {
-    color: #3470c4;
+    color: #ffffff;
     font-size: min(5vw, 1.2em);
     text-align: right;
     padding-left: 300px;
@@ -186,6 +190,10 @@
   .info {
     padding: 10px 0 0 5px;
   }
+
+  .button {
+    margin-left: 100px;
+  }
   
   .formrow {
     margin-top: 30px;
@@ -236,15 +244,8 @@
   }
 
   
-  button {
-    display: block;
-    margin: 20px auto 0 90px;
-    width: 15%;
-    padding: 15px;
-    font-size: 15px;
-    background: #d0d0d5;
-    border: 3px solid #3b3b4f;
-  }
+  
+  
   
   footer {
     background-color: #ffffff;
@@ -256,11 +257,5 @@
   footer a {
     color: #000000;
   }
-  
-  address {
-    text-align: center;
-    padding: 0.3em;
-  }
-  
-  
+
   
