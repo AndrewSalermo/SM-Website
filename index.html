@@ -6,25 +6,43 @@
     <meta name="description" content="Ocean Pollution Website" />
     <title>Ocean Pollution Information</title>
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
   <body>
-    
-    <header>
-      
-      <h1>IMMACULATE OCEANS</h1>
-      <nav>
-        <ul>
-            <li><a href="#why-info">HOME</a></li>
-            <li><a href="#how-info">ABOUT</a></li>
-            <li><a href="#sub-email">SUBSCRIBE</a></li>
-          </ul>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <header class="rounded">
+      <h1 class="text-primary-emphasis fw-bold text-center fs-1">IMMACULATE OCEANS</h1>
+      <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <a  class="navbar-brand fw-bold" href="#">Main</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+              <li  class="nav-item"> 
+                <a class="nav-link active fw-bold" aria-current="page" href="#how-info">Organizations</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" aria-current="page" href="#ideas-info">Ideas</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active fw-bold" href="#contact-info">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
+      
     </header>
     <main>
       <form method="post" action="">
          
         <section id="why-info" role="info" class="sec1">
-          <h2 >Why should I care?</h2>
+          <h2 class="fw-bold text-dark" >Why should I care?</h2>
           <br/>
         <br/>
         <br/>
@@ -35,7 +53,7 @@
             us to take action and make changes in our own lives to reduce our impact on the ocean. The ocean is a significant
             part part of our lives since it is a prime source of food, economic activity, medicine, and many other things.
             Learning about ocean pollution motivates us to be part of the solution. By understanding the 
-            issue that affect our ocean, we can play a role in creating a cleaner, healthier, and more sustainable ocean for future lives. </p>
+            issues that affect our oceans, we can play a role in creating a cleaner, healthier, and more sustainable ocean for future lives. </p>
             <br/>
             <br/>
             <br/>
@@ -46,7 +64,7 @@
 
         </section>
         <section class="how-info" id="how-info">
-          <h2>Others making a difference</h2>
+          <h2 class="fw-bold text-dark">Others making a difference</h2>
           
           <p > Here are just some of the many organizations that do their part 
             in protecting our oceans 
@@ -82,7 +100,7 @@
           <div class="div3">
           <h3 class="h3-plastic"> <a  target="_blank" href = "https://plasticoceans.org/"> Plastics Ocean International </a> </h3>
 
-          <p class="p3"> <img class="img4" src="https://live.staticflickr.com/5474/11637416403_883b59fd7c_b.jpg">Plastic Oceans International is a non-profit dedicated to reducing ocean plastic 
+          <p class="p3"> <img class="img3" src="https://live.staticflickr.com/5474/11637416403_883b59fd7c_b.jpg">Plastic Oceans International is a non-profit dedicated to reducing ocean plastic 
             pollution through education, research, and advocacy. They aim to promote sustainable 
             practices, raise public awareness and create a cleaner ocean for future generations. 
             By addressing the issue of plastic pollution in the ocean, Plastic Oceans International 
@@ -96,47 +114,56 @@
         <br/>
         <br/>
 
-        <section class="sec3">
-          <h2>How you can make a differece!</h2>
+        <section class="sec3" id="ideas-info">
+          <h2 class="fw-bold text-dark" class="ideas-info" id="ideas-info">How you can make a difference!</h2>
           <div>
             <p> Here are some things you can change in your daily lives to ensure
               the ocean will not continue to be filled by pollution.
             </p>
+            <br/>
+            <br/>
+            <br/>
+
 
             <ul>
-              <li>Use less water</li>
-              <li>Less single use plastics</li>
-              <li>Organize trash more effieciently</li>
-              <li>Support ocean friendly products</li>
-              <li>Reduce Water Usage</li>
+              <li class="fs-4 text-white">Use less water</li>
+              <li class="fs-4 text-white">Less single use plastics</li>
+              <li class="fs-4 text-white">Organize trash more efficiently</li>
+              <li class="fs-4 text-white">Support ocean friendly products</li>
+              <li class="fs-4 text-white">Reduce Water Usage</li>
+              <img class = "img4" src="img1.jpg">
             </ul>
           </div>
         </section>
 
-        <section class="emailinglist" role="region" aria-labelledby="sub-email">
-          <h2 id="sub-email">Emailing List</h2>
+        <section class="emailinglist contact-info" role="region" aria-labelledby="css-questions">
+          <h2 class = "fw-bold" id="contact-info">Contact Info</h2>
           <p>To keep up to date on impactful news on ocean pollution, subscribe to our emailing 
             list to stay connected!
           </p>
-          <div class="info">
+          
+          <div class="info text-white">
             <label for="student-name">Name:</label>
             <input type="text" name="student-name" id="student-name" />
+            
           </div>
-          <div class="info">
+          <div class="info text-white">
             <label for="student-email">Email:</label>
             <input type="email" name="student-email" id="student-email" />
+            
+            <br/>
+
           </div>
-          <button type="submit">Subscribe</button>
+          <br/>
+          <br/>
+          <button  class="btn btn-light  float-right">Subscribe</button>
+          <p class ="d-flex justify-content-center fw-bold" > Address </p>
+            <p class ="d-flex justify-content-center"> <u>P. Sherman  42 Wallaby Way, Sydney</u> </p>
         </section>
         
       </form>
     </main>
-    <footer>
-      <address>
-        <a href="">Contact info</a><br />
-        
-       
-      </address>
-    </footer>
+   
+   
   </body>
 </html>
