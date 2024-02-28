@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Soft & Sleek Portfolio</title>
+    <meta viewport="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Portfolio</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Google Fonts -->
@@ -22,27 +22,12 @@
         .navbar-brand, .nav-link {
             color: #4a766e; /* Sage green */
         }
-        .nav-link {
-            margin-right: 15px;
-            transition: color 0.3s ease-in-out;
-        }
         .nav-link:hover, .navbar-brand:hover {
             color: #3a5a53;
             border-bottom: 2px solid #4a766e; /* Sage green */
         }
-        .hero-section {
-            background-color: #f5f5f5; /* Light gray */
-            color: #4a766e; /* Sage green */
-            padding: 100px 0;
-        }
-        .content-section, .custom-section {
+        .content-section {
             padding: 60px 0;
-        }
-        .custom-section {
-            background-color: #d8e2dc; /* Soft sage green */
-            background-size: 200px; /* Adjust size as necessary */
-            background-repeat: no-repeat;
-            background-position: center;
         }
         .footer {
             color: #4a766e; /* Sage green */
@@ -52,27 +37,12 @@
         h1, h2 {
             font-weight: 700; /* Bolder font for headings */
         }
-        p, .nav-link, .navbar-brand {
+        p {
             font-weight: 400; /* Regular font weight for text */
-        }
-        /* Animation for links */
-        @keyframes slideIn {
-            from {
-                transform: translateY(20px);
-                opacity: 0;
-            }
-            to {
-                transform: translateY(0);
-                opacity: 1;
-            }
-        }
-        .navbar-nav .nav-item {
-            animation: slideIn 0.5s ease-in-out forwards;
         }
     </style>
 </head>
 <body>
-
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <div class="container">
@@ -83,7 +53,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item active"><a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a></li>
                 <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link" href="dcim.html">DCIM</a></li>
             </ul>
@@ -91,19 +61,11 @@
     </div>
 </nav>
 
-<!-- Hero Section -->
-<section class="hero-section text-center">
+<!-- Main Content Section -->
+<section class="content-section text-center">
     <div class="container">
-        <h1>Welcome to My Portfolio</h1>
-        <p>Discover my projects and professional journey.</p>
-    </div>
-</section>
-
-<!-- Custom Section with subtle plant pattern -->
-<section class="custom-section text-center">
-    <div class="container">
-        <h2>Featured Projects</h2>
-        <p>Explore some of my key projects and contributions.</p>
+        <h1>Portfolio</h1>
+        <p>This is where I might put my resume along with important projects and achievements.</p>
     </div>
 </section>
 
